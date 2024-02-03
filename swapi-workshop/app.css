@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.starwarscontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.person {
+  width: 400px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.logo {
+  margin-top: 80px;
+  width: 400px;
+}
+
+.ship {
+  margin-top: 80px;
+  width: 600px;
+  cursor: pointer;
+}
+
+table {
+  color: white;
+}
