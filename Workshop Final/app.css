@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.starwarscontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.person {
+  width: 600px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 600px;
+}
+
+.ship {
+  width: 600px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 20px;
+  color: green;
+}
+
+th {
+  text-align: left;
+  background-color: lightgray;
+}
+
+th,
+td {
+  border: 1px solid darkgray;
+  min-width: 80px;
+  padding: 5px;
+}
+
+button {
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px;
+  min-width: 150px;
+  cursor: pointer;
+  color: black;
+}
